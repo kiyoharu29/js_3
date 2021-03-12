@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="filter.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+        <h3>リアルタイムフィルター</h3>
+        
+        <!-- ここに記述していきましょう！ -->
+        <p>入力した文字を含まない要素は非表示となります</p>
+        <input type="text" class="input_text">
+        <div class="exhibition">
+          <div class="filter_img">
+            <div class="contain_img">
+              <img src="https://i.pinimg.com/originals/71/1a/e2/711ae2232a730c54c460e782ce4727cf.jpg" alt="car">
+            </div>
+            <p class="keywords">キーワード</p>
+            <div class="keyword_list">
+              <p>自動車</p>
+              <p>じどうしゃ</p>
+              <p>jidousya</p>
+            </div>
+          </div>
+          <div class="filter_img">
+            <div class="contain_img">
+              <img src="https://wakayama-hidaka-history.jp/wp/wp-content/uploads/2019/08/%E3%83%88%E3%83%83%E3%83%97%E7%94%BB%E5%83%8F%E3%80%80%E7%B4%80%E4%BC%8A%E6%97%A5%E3%83%8E%E5%BE%A1%E5%9F%BC%E7%81%AF%E5%8F%B0-1024x681.jpeg" alt="Lighthouse">
+            </div>
+            <p class="keywords">キーワード</p>
+            <div class="keyword_list">
+              <p>灯台</p>
+              <p>とうだい</p>
+              <p>toudai</p>
+            </div>
+          </div>
+          <div class="filter_img">
+            <div class="contain_img">
+              <img src="https://lh4.googleusercontent.com/proxy/JEcn1awGjUqcfm4alcl-sw7a0Iz3YHOg8euNeltp3qGMBVkidPzGn0md49nBtyrw82I5EWNYs73uE_KvpRmT9Ymnh85d8-gV8EUCtjdNZuQSqfOVWKavvp57mxHaluzqgrFcMXCBb7qNRqrsIrpf2Wth=s0-d" alt="cherry-blossoms">
+            </div>
+            <p class="keywords">キーワード</p>
+            <div class="keyword_list">
+              <p>桜</p>
+              <p>さくら</p>
+              <p>sakura</p>
+            </div>
+          </div>
+          <div class="filter_img">
+            <div class="contain_img">
+              <img src="https://lh3.googleusercontent.com/proxy/yy1z6vFlHqPdYzYeS60qw2pg9A6VBOaDgC9EZF6JkvySWll30e96CvZ5BRzURwDnd30EGeRMRS3FwR_xqd_DfRjUis9AX2BrJun8af_LlAAv270lmJyO7zSJ_MA" alt="cat">
+            </div>
+            <p class="keywords">キーワード</p>
+            <div class="keyword_list">
+              <p>猫</p>
+              <p>ねこ</p>
+              <p>neko</p>
+            </div>
+          </div>
+        </div>
+        
+        <script src="filter.js"></script>
+</html>
